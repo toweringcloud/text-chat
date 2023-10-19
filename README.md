@@ -2,6 +2,6 @@
 
 simple text chat application using socket.io
 
--   User Join / Leave
--   Multiple Chat
--   Open Rooms
+-   Open Room (Auto Join)
+-   Create Nickname
+-   Send Message

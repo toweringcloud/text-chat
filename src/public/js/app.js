@@ -10,6 +10,7 @@ const formMessage = room.querySelector("form#msg");
 let roomName;
 room.hidden = true;
 formMessage.hidden = true;
+document.body.style.backgroundColor = "skyblue";
 
 function addMessage(msg) {
 	const ul = room.querySelector("ul");
