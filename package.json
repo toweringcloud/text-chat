@@ -1,19 +1,23 @@
 {
 	"name": "text-chat",
-	"version": "1.0.0",
-	"author": "toweringcloud",
+	"version": "0.1.0",
 	"description": "simple text chat using socketio",
-	"homepage": "https://github.com/toweringcloud/text-chat",
 	"license": "MIT",
+	"author": "toweringcloud",
+	"homepage": "https://github.com/toweringcloud/text-chat",
+	"inspiredby": "https://nomadcoders.co/noom",
+	"keywords": [
+		"vanillajs",
+		"socketio",
+		"pug",
+		"chat",
+		"room",
+		"nickname",
+		"message"
+	],
+	"type": "module",
 	"scripts": {
 		"dev": "nodemon"
-	},
-	"devDependencies": {
-		"@babel/cli": "^7.22.15",
-		"@babel/core": "^7.22.20",
-		"@babel/node": "^7.22.19",
-		"@babel/preset-env": "^7.22.20",
-		"nodemon": "^3.0.1"
 	},
 	"dependencies": {
 		"@socket.io/admin-ui": "^0.5.1",
@@ -21,5 +25,12 @@
 		"pug": "^3.0.2",
 		"socket.io": "^4.7.2",
 		"ws": "^8.14.1"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.22.15",
+		"@babel/core": "^7.22.20",
+		"@babel/node": "^7.22.19",
+		"@babel/preset-env": "^7.22.20",
+		"nodemon": "^3.0.1"
 	}
 }
