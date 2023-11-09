@@ -4,7 +4,7 @@
 	"description": "simple text chat using socketio",
 	"license": "MIT",
 	"author": "toweringcloud",
-	"homepage": "https://github.com/toweringcloud/text-chat",
+	"homepage": "https://toweringcloud.github.io/text-chat",
 	"inspiredby": "https://nomadcoders.co/noom",
 	"keywords": [
 		"vanillajs",
